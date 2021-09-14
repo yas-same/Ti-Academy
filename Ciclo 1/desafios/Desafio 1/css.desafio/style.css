@@ -1,0 +1,46 @@
+
+.body{
+	margin: 100px;
+	padding: 0;
+}
+
+main{
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	background-color: green;
+	display: flex;
+	justify-content: space-between;
+	padding: 3px;
+	flex-direction: row;
+
+}
+
+
+.cilueta-to-form{
+	width: 100px;
+	height: 100px;
+	font-family: Verdana, arial, cursive;
+	font-weight: bold;
+	display: flex;
+	border: 3px solid #000;
+	justify-content: center;
+}
+
+.form-quadrado{
+	margin: 10px;
+	background-color: purple;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+
+}
+.form-circulo{
+	margin-right: 10px;
+	background-color: yellow;
+	border-radius: 100%;
+	position: relative;
+	top: 72%;
+	left: 490px;
+	align-items: center;
+}
